@@ -1,0 +1,538 @@
+/* essential  */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#heaD{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 100%;
+}
+#boxes{
+    display: flex;
+}
+.navbarflex{
+    display: flex;
+}
+.navbarflex li ,li a{
+    text-decoration: none;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:white;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+}
+.navbarflex li a:hover{
+    font-weight: bold;
+    font-size:20px;
+    color:#f37e00 ;
+    transition: 0.2s ease-in;
+}
+.nav-bar span{
+    display: block;
+    font-size: 10px;
+}
+.watch-div{
+    text-transform: uppercase;
+    display: inline-block;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* background-color: rgb(212, 235, 212); */
+    background-size: cover;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+/* background-color: #d0e3d7; */
+background-image: url('https://www.hdwallpapers.in/download/orange_yellow_green_autumn_trees_mountain_slope_under_black_yellow_red_clouds_blue_sky_reflection_on_river_hd_nature-HD.jpg');
+}
+
+.max-h-screen {
+    height: 100vh;
+}
+
+.flex {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+    list-style: none;
+   
+
+}
+
+.font {
+    font-size: 20px;
+}
+
+.small-font {
+    font-size: 10px;
+    align-items: center;
+    color: white;
+}
+
+
+
+.items-center {
+    align-items: center;
+}
+
+.top-right {
+    height: 100vh;
+    width: 45%;
+    height: 50vh;
+    display: inline-block;
+    justify-content: right;
+    color: white;
+}
+
+.top-left {
+    align-items: center;
+    flex-direction: column;
+    height: 337px;
+    width: 45%;
+    display: inline-block;
+    justify-content: center;
+    height: 50vh;
+    justify-content: center;
+    padding-top: 98px;
+    color: white;
+
+}
+
+.nav-bar {
+    /* font-weight: 700px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    display: inline-block; */
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+
+}
+
+.button-hover {
+    /* border: none;
+    color: rgba(255, 255, 255, 0.8) !important; */
+    cursor: pointer;
+    
+    /* text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em; */
+    padding: 67px;
+    
+    /* font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent; */
+    border: 1px solid transparent;
+    border-radius: 100em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtaY4ibuxC8xD8EffU_S4cXVMwlWu_Z9b3Fg&usqp=CAU);
+background-size: cover;
+height:100px;
+width: 100x;
+display:inline-block;
+
+
+}
+
+
+.watch-div{
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+
+}
+.mb1{
+
+margin: 0;
+text-transform: uppercase;
+font-weight: 500;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 50px;
+color: white;
+line-height: 1.3;
+font-weight: 700;
+text-transform: uppercase;
+position: relative;
+letter-spacing: 3px;
+}
+.left-box-2{
+    /* width: 45%; */
+    text-align: center;
+    text-transform: uppercase;
+    /* height: 100%; */
+    display: inline-block;
+    background-color: white;
+align-items: center;
+transition: background-color;
+height: 50px;
+width: 45%;
+}
+
+/* .left-box-2:hover{
+height: 50px;
+width: 45%;
+} */
+.right-box-2{
+    width: 45%;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100px;
+    display: inline-block;
+}
+.icon{
+    height: 33px;
+    width: 33px;
+    background-color: #089131;
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/1965780499/display_1500/stock-vector-apologetic-hand-symbol-vector-isolated-on-white-background-1965780499.jpg');
+    transition:background-color;
+    display: inline-block
+
+}
+.icon:hover{
+    background-color:red;
+}
+.para:hover{
+    background-color: rgb(223, 142, 61);
+
+}
+/* Cards */
+.card {
+    /* height: 200px; */
+    margin-left: 20%;
+    width: 600px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 0px solid transparent;
+    border-radius: 0px;
+
+}
+
+.card:hover{
+    color:white;
+    background-color: #ff9235;
+    cursor:pointer;
+    transition: 0.3s ease-in;
+    
+    
+}
+
+
+/*CSS for cards*/
+.card-body {
+    text-align: right;
+    padding: 20px;
+}
+
+@media (max-width: 900px) {
+    #displayimage{
+        background-image: none;
+        }
+        #C_DIV {
+            flex-direction: column;
+        }
+        .card{
+            width: 1300px;
+        }
+
+}
+/* Division of cards and image */
+#C_DIV {
+    display: flex;
+    width: 1300px;
+    height: 1024px;
+}
+/* image aside cards */
+#displayimage {
+    margin-left: 121px;
+    width: 600px;
+    background-image: url(http://m.gettywallpapers.com/wp-content/uploads/2021/01/Cool-Anime-Wallpaper-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1008px;
+} 
+
+/* photo collage */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0; 
+    /* No gap between photos */
+    max-width: 100%; 
+    /* Collage takes up full width of its container */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.photo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
+
+.photo-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo:hover .photo-text {
+    opacity: 1;
+}
+
+/* Define the specific grid positions for each photo */
+.photo1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    height:100%;
+}
+
+.photo2 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    height:100%;
+}
+
+.photo3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    height:100%;
+}
+
+.photo4 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    height: 550px;
+}
+
+.photo5 {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    height:100%;
+}
+
+.photo6 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    height:100%;
+}
+
+.photo7 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    height: 100%;
+}
+
+.photo8 {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    height: 100%;
+}
+/* collage ends here */
+/* inline cards */
+
+#inlineCARDS{
+    display: flex;
+    margin-left: -400px;
+}
+.card-img-top{
+    height: 242px;
+    width: 385px;
+    color: black;
+  
+} 
+/* .card-title , .card-text{
+    color: black;
+}  */
+.card-text{
+    text-align: left;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+/* forms */
+
+.containers {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+#FOrms {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-top:200px ;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#contact-form{
+    padding:25px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#male,
+#female {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+     margin-left: 44%;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+body{
+    background-color: rgb(248, 225, 182);
+}
+/* .style{
+* {box-sizing: border-box;} */
+  
+.slideshow-container {
+  margin: 0px;
+  position: relative;
+  width: 100%;
+  height: 740px;
+}
+.cara-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mySlides {
+  width: 100%; 
+  height: 100%;
+  display: none;
+  -webkit-animation:ease-in 3s;
+  animation: ease-in 3s;
+  
+}
+
+@-webkit-keyframes ease-in {
+  from {left: 100%;} 
+  to {left: 0%;}
+}
+
+@keyframes ease-in {
+  from {left: 100%;}
+  to {left: 0%;}
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+ 
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* } */
+
+
+
+
